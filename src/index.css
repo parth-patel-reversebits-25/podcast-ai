@@ -38,6 +38,16 @@ html {
   animation: slide-up 1s ease-out 0.3s both;
 }
 
+/* Hide scrollbar but keep functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
 /* Custom scrollbar */
 .scrollbar-thin {
   scrollbar-width: thin;
